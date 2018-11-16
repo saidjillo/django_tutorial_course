@@ -92,3 +92,5 @@ def home(request):
     else:
         return HttpResponse(status=500)
 
+def catalog_view(request):
+    pass
