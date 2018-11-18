@@ -38,3 +38,4 @@ class Transaction(models.Model):
     paid_amount = models.FloatField()
     timestamp   = models.DateField(default=timezone.now)
     
+ 
