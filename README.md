@@ -1,1 +1,1 @@
-### website is live at []
+### website is live at [https://mygameshop.herokuapp.com/](https://mygameshop.herokuapp.com/)
