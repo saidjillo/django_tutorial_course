@@ -150,9 +150,9 @@ def game_info(request, game_id):
         pid         = 'coastseller'
         sid         = 'myshopapp'
         amount      =  game.price
-        success     = 'http://localhost:8000/payment/success/?game_id={}'.format(game_id)
-        cancel      = 'http://localhost:8000/payment/cancel'
-        error       = 'http://localhost:8000/payment/error'
+        success     = 'https://mygameshop.herokuapp.com/payment/success/?game_id={}'.format(game_id)
+        cancel      = 'https://mygameshop.herokuapp.com/payment/cancel'
+        error       = 'https://mygameshop.herokuapp.com/payment/error'
         checksumstr = "pid={}&sid={}&amount={}&token={}".format(pid, sid, amount, secret_key)
         digest      = md5(checksumstr.encode('ascii')) 
         checksum    = digest.hexdigest()
